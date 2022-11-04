@@ -1,0 +1,2147 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="pt-br">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <title>SGI Template - Repositório do Template</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <!-- GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet"
+        type="text/css" />
+    <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet" />
+    <link href="../../plugins/simple-line-icons/css/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css">
+    <link href="../../plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css">
+
+    <!-- THEME GLOBAL STYLES -->
+    <link href="../../css/components-rounded.css" rel="stylesheet" id="style_components" type="text/css" />
+    <link href="../../css/plugins.css" rel="stylesheet" type="text/css" />
+
+    <!-- THEME LAYOUT STYLES -->
+    <link href="../../css/layout-vertical.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/custom-vertical.css" rel="stylesheet" type="text/css" />
+    <link href="../../favicon.ico" rel="shortcut icon" />
+</head>
+
+<body class="page-container-bg-solid page-header-fixed page-sidebar-closed-hide-logo">
+    <!-- BEGIN HEADER -->
+    <div class="page-header navbar navbar-fixed-top">
+        <div class="page-header-inner ">
+
+            <div class="page-logo">
+                <!-- <div class="menu-toggler sidebar-toggler"></div> -->
+                <a href="http://www.sgi.ms.gov.br/">
+                    <img src="../../img/logo/cotin-mini2-removebg-preview.png" alt="logo" class="logo-default"
+                        style="width: 150px; margin-left: 10px;" />
+                </a>
+
+
+            </div>
+            <div class="page-top">
+
+
+                <div class="top-menu">
+                    <ul class="nav navbar-nav pull-right">
+
+
+                        <li class="dropdown dropdown-user dropdown-dark">
+                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                                data-close-others="true">
+                                <span class="username username-hide-on-mobile" style="color: white;"> USUÁRIO </span>
+                                <img alt="" class="img-circle" src="../../../img/avatar.png" /> </a>
+                            <ul class="dropdown-menu dropdown-menu-default" style="background-color: white;">
+                                <li>
+                                    <a href="outros/usuario-perfil.html">
+                                        <i class="icon-user"></i> Meu Perfil
+                                        <span class="badge badge-danger">1</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="outros/usuario-inbox.html">
+                                        <i class="icon-envelope-open"></i> Caixa de Entrada
+                                        <span class="badge badge-success"> 3 </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="outros/usuario-calendario.html">
+                                        <i class="icon-calendar"></i> Calendário
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="outros/usuario-tarefas.html">
+                                        <i class="icon-rocket"></i> Tarefas
+                                        <span class="badge badge-success"> 7 </span>
+                                    </a>
+                                </li>
+                                <li class="divider"> </li>
+                                <li>
+                                    <a href="outros/usuario-block.html">
+                                        <i class="icon-lock"></i> Bloquear
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../html/blank.html">
+                                        <i class="icon-key"></i> Sair
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown dropdown-extended quick-sidebar-toggler">
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- MENU TOGGLER -->
+
+
+            <!-- PAGE TOP -->
+
+            <!-- END PAGE TOP -->
+        </div>
+        <!-- <div class="page-logo">
+            <div>
+                <img src="../../../img/logo/governo-ms.png" alt="logo" class="logo-default"
+                    style="width: 150px; margin-left: 2500px;">
+            </div>
+        </div> -->
+
+
+    </div>
+    <!-- END HEADER -->
+    <div class="clearfix"> </div>
+
+    <div class="page-container" style="background-color: white;">
+        <div class="col-md-12" style="display: flex; justify-content: center; flex-direction: column;">
+            <h1>TEMPLATE DE FORMULÁRIO WIZARD PARA CONFERÊNCIA DE EXTRATO </h1>
+
+        </div>
+        <div class="page-content-wrapper">
+            <!-- BEGIN CONTENT BODY -->
+            <div class="portlet light bordered" id="form_wizard_1">
+                <div class="portlet-title">
+                    <div class="caption">
+
+                        <span class="caption-subject font-red bold uppercase"> COMPLETE TODAS ETAPAS PARA FINALIZAR SEU
+                            CADASTRO -
+                            <span class="step-title"> ETAPA 1 DE (COLOCAR AQUI O NÚMERO DE ETAPAS DO FORMULÁRIO) </span>
+                        </span>
+                    </div>
+
+                    <div>
+                        <a class="btn btn-success btn-small pull-right" data-toggle="modal"
+                            data-target="#tutorialFormulario">
+                            <span class="icon-book icon-white center"></span><span>Tutorial do Formulário</span>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="portlet-body form">
+                    <form class="form-horizontal" action="#" id="submit_form" method="POST" novalidate="novalidate">
+                        <div class="form-wizard">
+                            <div class="form-body">
+                                <ul class="nav nav-pills nav-justified steps">
+                                    <li class="active">
+                                        <a href="#tab1" data-toggle="tab" class="step" aria-expanded="true">
+                                            <span class="number"> 1 </span>
+                                            <br>
+                                            <span class="desc">
+                                                <i class="fa fa-check"></i> ETAPA 1 </span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#tab2" data-toggle="tab" class="step" aria-expanded="true">
+                                            <span class="number"> 2 </span>
+                                            <br>
+                                            <span class="desc">
+                                                <i class="fa fa-check"></i> ETAPA 2 </span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#tab3" data-toggle="tab" class="step" aria-expanded="true">
+                                            <span class="number"> 3 </span>
+                                            <br>
+                                            <span class="desc">
+                                                <i class="fa fa-check"></i> ETAPA 3 </span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#tab4" data-toggle="tab" class="step" aria-expanded="true">
+                                            <span class="number"> 4 </span>
+                                            <br>
+                                            <span class="desc">
+                                                <i class="fa fa-check"></i> ETAPA 4 </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div id="bar" class="progress progress-striped" role="progressbar">
+                                    <div class="progress-bar progress-bar-success" style="width: 20%;"> </div>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="alert alert-danger display-none">
+                                        <button class="close" data-dismiss="alert"></button> Algumas informações podem
+                                        estar incorretas.
+                                        Por favor, verifique abaixo.
+                                    </div>
+                                    <div class="alert alert-success display-none">
+                                        <button class="close" data-dismiss="alert"></button> Your form validation is
+                                        successful!
+                                    </div>
+                                    <div class="tab-pane active " id="tab1" style="text-align: center;">
+                                        <div class="portlet box blue">
+                                            <div class="portlet-title">
+                                                <div class="caption">
+                                                    Confira seus dados
+                                                </div>
+                                            </div>
+                                            <div class="portlet-body">
+                                                <div class="row">
+                                                    <div class="tab-content"
+                                                        style="display: flex; justify-content: center;">
+                                                        <div class="portlet box green col-md-10" style="margin: auto;">
+                                                            <div class="portlet-title">
+                                                                <div class="caption">
+                                                                    <i class="fa fa-comments"></i>EXTRATO </div>
+                                                                <div class="tools">
+                                                                    <a href="javascript:;" class="collapse"
+                                                                        data-original-title="" title=""> </a>
+                                                                    <a href="#portlet-config" data-toggle="modal"
+                                                                        class="config" data-original-title="" title="">
+                                                                    </a>
+                                                                    <a href="javascript:;" class="reload"
+                                                                        data-original-title="" title=""> </a>
+                                                                    <a href="javascript:;" class="remove"
+                                                                        data-original-title="" title=""> </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="portlet-body"
+                                                                style="display: flex; justify-content: space-around;">
+
+                                                                <div class="portlet-body form">
+                                                                    <!-- BEGIN FORM-->
+                                                                    <form class="form-horizontal" role="form">
+                                                                        <div class="form-body">
+                                                                            <h2 class="margin-bottom-20"> Visualizar
+                                                                                Informações do Usuário - Usuário teste
+                                                                            </h2>
+                                                                            <h3 class="form-section">Informações
+                                                                                pessoais</h3>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Nome:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Bob </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Sobrenome:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Nilson </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Gênero:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Male </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Data
+                                                                                            de Nascimento:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                20.01.1984 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Categoria:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Categoria1 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Plano:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Gratuito </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <h3 class="form-section">Endereço</h3>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Endereço:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                #24 Sun Park Avenue,
+                                                                                                Rolton Str </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Cidade:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                New York </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Estado:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                New York </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">CEP:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                457890 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Páis:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                USA </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-actions">
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="row">
+                                                                                        <div
+                                                                                            class="col-md-offset-3 col-md-9">
+                                                                                            <button type="submit"
+                                                                                                class="btn btn-primary">
+                                                                                                <i
+                                                                                                    class="fa fa-pencil"></i>
+                                                                                                Editar</button>
+                                                                                            <button type="button"
+                                                                                                class="btn default">Cancelar</button>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6"> </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                    <!-- END FORM-->
+                                                                </div>
+                                                                <div class="portlet-body form">
+                                                                    <!-- BEGIN FORM-->
+                                                                    <form class="form-horizontal" role="form">
+                                                                        <div class="form-body">
+                                                                            <h2 class="margin-bottom-20"> Visualizar
+                                                                                Informações do Usuário - Usuário teste
+                                                                            </h2>
+                                                                            <h3 class="form-section">Informações
+                                                                                pessoais</h3>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Nome:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Bob </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Sobrenome:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Nilson </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Gênero:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Male </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Data
+                                                                                            de Nascimento:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                20.01.1984 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Categoria:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Categoria1 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Plano:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Gratuito </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <h3 class="form-section">Endereço</h3>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Endereço:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                #24 Sun Park Avenue,
+                                                                                                Rolton Str </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Cidade:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                New York </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Estado:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                New York </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">CEP:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                457890 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Páis:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                USA </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-actions">
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="row">
+                                                                                        <div
+                                                                                            class="col-md-offset-3 col-md-9">
+                                                                                            <button type="submit"
+                                                                                                class="btn btn-primary">
+                                                                                                <i
+                                                                                                    class="fa fa-pencil"></i>
+                                                                                                Editar</button>
+                                                                                            <button type="button"
+                                                                                                class="btn default">Cancelar</button>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6"> </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                    <!-- END FORM-->
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane  " id="tab2" style="text-align: center;">
+                                        <div class="portlet box blue">
+                                            <div class="portlet-title">
+                                                <div class="caption">
+                                                    Confira seus dados
+                                                </div>
+                                            </div>
+                                            <div class="portlet-body">
+                                                <div class="row">
+                                                    <div class="tab-content"
+                                                        style="display: flex; justify-content: center;">
+                                                        <div class="portlet box green col-md-10" style="margin: auto;">
+                                                            <div class="portlet-title">
+                                                                <div class="caption">
+                                                                    <i class="fa fa-comments"></i>EXTRATO </div>
+                                                                <div class="tools">
+                                                                    <a href="javascript:;" class="collapse"
+                                                                        data-original-title="" title=""> </a>
+                                                                    <a href="#portlet-config" data-toggle="modal"
+                                                                        class="config" data-original-title="" title="">
+                                                                    </a>
+                                                                    <a href="javascript:;" class="reload"
+                                                                        data-original-title="" title=""> </a>
+                                                                    <a href="javascript:;" class="remove"
+                                                                        data-original-title="" title=""> </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="portlet-body"
+                                                                style="display: flex; justify-content: space-around;">
+
+                                                                <div class="portlet-body form">
+                                                                    <!-- BEGIN FORM-->
+                                                                    <form class="form-horizontal" role="form">
+                                                                        <div class="form-body">
+                                                                            <h2 class="margin-bottom-20"> Visualizar
+                                                                                Informações do Usuário - Usuário teste
+                                                                            </h2>
+                                                                            <h3 class="form-section">Informações
+                                                                                pessoais</h3>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Nome:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Bob </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Sobrenome:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Nilson </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Gênero:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Male </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Data
+                                                                                            de Nascimento:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                20.01.1984 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Categoria:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Categoria1 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Plano:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Gratuito </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <h3 class="form-section">Endereço</h3>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Endereço:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                #24 Sun Park Avenue,
+                                                                                                Rolton Str </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Cidade:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                New York </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Estado:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                New York </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">CEP:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                457890 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Páis:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                USA </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-actions">
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="row">
+                                                                                        <div
+                                                                                            class="col-md-offset-3 col-md-9">
+                                                                                            <button type="submit"
+                                                                                                class="btn btn-primary">
+                                                                                                <i
+                                                                                                    class="fa fa-pencil"></i>
+                                                                                                Editar</button>
+                                                                                            <button type="button"
+                                                                                                class="btn default">Cancelar</button>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6"> </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                    <!-- END FORM-->
+                                                                </div>
+                                                                <div class="portlet-body form">
+                                                                    <!-- BEGIN FORM-->
+                                                                    <form class="form-horizontal" role="form">
+                                                                        <div class="form-body">
+                                                                            <h2 class="margin-bottom-20"> Visualizar
+                                                                                Informações do Usuário - Usuário teste
+                                                                            </h2>
+                                                                            <h3 class="form-section">Informações
+                                                                                pessoais</h3>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Nome:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Bob </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Sobrenome:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Nilson </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Gênero:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Male </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Data
+                                                                                            de Nascimento:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                20.01.1984 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Categoria:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Categoria1 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Plano:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Gratuito </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <h3 class="form-section">Endereço</h3>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Endereço:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                #24 Sun Park Avenue,
+                                                                                                Rolton Str </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Cidade:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                New York </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Estado:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                New York </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">CEP:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                457890 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Páis:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                USA </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-actions">
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="row">
+                                                                                        <div
+                                                                                            class="col-md-offset-3 col-md-9">
+                                                                                            <button type="submit"
+                                                                                                class="btn btn-primary">
+                                                                                                <i
+                                                                                                    class="fa fa-pencil"></i>
+                                                                                                Editar</button>
+                                                                                            <button type="button"
+                                                                                                class="btn default">Cancelar</button>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6"> </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                    <!-- END FORM-->
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane  " id="tab3" style="text-align: center;">
+                                        <div class="portlet box blue">
+                                            <div class="portlet-title">
+                                                <div class="caption">
+                                                    Confira seus dados
+                                                </div>
+                                            </div>
+                                            <div class="portlet-body">
+                                                <div class="row">
+                                                    <div class="tab-content"
+                                                        style="display: flex; justify-content: center;">
+                                                        <div class="portlet box green col-md-10" style="margin: auto;">
+                                                            <div class="portlet-title">
+                                                                <div class="caption">
+                                                                    <i class="fa fa-comments"></i>EXTRATO </div>
+                                                                <div class="tools">
+                                                                    <a href="javascript:;" class="collapse"
+                                                                        data-original-title="" title=""> </a>
+                                                                    <a href="#portlet-config" data-toggle="modal"
+                                                                        class="config" data-original-title="" title="">
+                                                                    </a>
+                                                                    <a href="javascript:;" class="reload"
+                                                                        data-original-title="" title=""> </a>
+                                                                    <a href="javascript:;" class="remove"
+                                                                        data-original-title="" title=""> </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="portlet-body"
+                                                                style="display: flex; justify-content: space-around;">
+
+                                                                <div class="portlet-body form">
+                                                                    <!-- BEGIN FORM-->
+                                                                    <form class="form-horizontal" role="form">
+                                                                        <div class="form-body">
+                                                                            <h2 class="margin-bottom-20"> Visualizar
+                                                                                Informações do Usuário - Usuário teste
+                                                                            </h2>
+                                                                            <h3 class="form-section">Informações
+                                                                                pessoais</h3>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Nome:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Bob </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Sobrenome:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Nilson </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Gênero:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Male </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Data
+                                                                                            de Nascimento:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                20.01.1984 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Categoria:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Categoria1 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Plano:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Gratuito </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <h3 class="form-section">Endereço</h3>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Endereço:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                #24 Sun Park Avenue,
+                                                                                                Rolton Str </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Cidade:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                New York </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Estado:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                New York </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">CEP:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                457890 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Páis:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                USA </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-actions">
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="row">
+                                                                                        <div
+                                                                                            class="col-md-offset-3 col-md-9">
+                                                                                            <button type="submit"
+                                                                                                class="btn btn-primary">
+                                                                                                <i
+                                                                                                    class="fa fa-pencil"></i>
+                                                                                                Editar</button>
+                                                                                            <button type="button"
+                                                                                                class="btn default">Cancelar</button>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6"> </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                    <!-- END FORM-->
+                                                                </div>
+                                                                <div class="portlet-body form">
+                                                                    <!-- BEGIN FORM-->
+                                                                    <form class="form-horizontal" role="form">
+                                                                        <div class="form-body">
+                                                                            <h2 class="margin-bottom-20"> Visualizar
+                                                                                Informações do Usuário - Usuário teste
+                                                                            </h2>
+                                                                            <h3 class="form-section">Informações
+                                                                                pessoais</h3>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Nome:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Bob </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Sobrenome:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Nilson </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Gênero:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Male </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Data
+                                                                                            de Nascimento:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                20.01.1984 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Categoria:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Categoria1 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Plano:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Gratuito </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <h3 class="form-section">Endereço</h3>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Endereço:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                #24 Sun Park Avenue,
+                                                                                                Rolton Str </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Cidade:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                New York </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Estado:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                New York </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">CEP:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                457890 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Páis:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                USA </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-actions">
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="row">
+                                                                                        <div
+                                                                                            class="col-md-offset-3 col-md-9">
+                                                                                            <button type="submit"
+                                                                                                class="btn btn-primary">
+                                                                                                <i
+                                                                                                    class="fa fa-pencil"></i>
+                                                                                                Editar</button>
+                                                                                            <button type="button"
+                                                                                                class="btn default">Cancelar</button>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6"> </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                    <!-- END FORM-->
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane  " id="tab4" style="text-align: center;">
+                                        <div class="portlet box blue">
+                                            <div class="portlet-title">
+                                                <div class="caption">
+                                                    Confira seus dados
+                                                </div>
+                                            </div>
+                                            <div class="portlet-body">
+                                                <div class="row">
+                                                    <div class="tab-content"
+                                                        style="display: flex; justify-content: center;">
+                                                        <div class="portlet box green col-md-10" style="margin: auto;">
+                                                            <div class="portlet-title">
+                                                                <div class="caption">
+                                                                    <i class="fa fa-comments"></i>EXTRATO </div>
+                                                                <div class="tools">
+                                                                    <a href="javascript:;" class="collapse"
+                                                                        data-original-title="" title=""> </a>
+                                                                    <a href="#portlet-config" data-toggle="modal"
+                                                                        class="config" data-original-title="" title="">
+                                                                    </a>
+                                                                    <a href="javascript:;" class="reload"
+                                                                        data-original-title="" title=""> </a>
+                                                                    <a href="javascript:;" class="remove"
+                                                                        data-original-title="" title=""> </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="portlet-body"
+                                                                style="display: flex; justify-content: space-around;">
+
+                                                                <div class="portlet-body form">
+                                                                    <!-- BEGIN FORM-->
+                                                                    <form class="form-horizontal" role="form">
+                                                                        <div class="form-body">
+                                                                            <h2 class="margin-bottom-20"> Visualizar
+                                                                                Informações do Usuário - Usuário teste
+                                                                            </h2>
+                                                                            <h3 class="form-section">Informações
+                                                                                pessoais</h3>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Nome:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Bob </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Sobrenome:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Nilson </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Gênero:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Male </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Data
+                                                                                            de Nascimento:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                20.01.1984 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Categoria:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Categoria1 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Plano:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Gratuito </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <h3 class="form-section">Endereço</h3>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Endereço:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                #24 Sun Park Avenue,
+                                                                                                Rolton Str </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Cidade:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                New York </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Estado:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                New York </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">CEP:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                457890 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Páis:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                USA </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-actions">
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="row">
+                                                                                        <div
+                                                                                            class="col-md-offset-3 col-md-9">
+                                                                                            <button type="submit"
+                                                                                                class="btn btn-primary">
+                                                                                                <i
+                                                                                                    class="fa fa-pencil"></i>
+                                                                                                Editar</button>
+                                                                                            <button type="button"
+                                                                                                class="btn default">Cancelar</button>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6"> </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                    <!-- END FORM-->
+                                                                </div>
+                                                                <div class="portlet-body form">
+                                                                    <!-- BEGIN FORM-->
+                                                                    <form class="form-horizontal" role="form">
+                                                                        <div class="form-body">
+                                                                            <h2 class="margin-bottom-20"> Visualizar
+                                                                                Informações do Usuário - Usuário teste
+                                                                            </h2>
+                                                                            <h3 class="form-section">Informações
+                                                                                pessoais</h3>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Nome:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Bob </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Sobrenome:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Nilson </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Gênero:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Male </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Data
+                                                                                            de Nascimento:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                20.01.1984 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Categoria:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Categoria1 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Plano:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                Gratuito </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <h3 class="form-section">Endereço</h3>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Endereço:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                #24 Sun Park Avenue,
+                                                                                                Rolton Str </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Cidade:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                New York </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Estado:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                New York </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <!--/row-->
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">CEP:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                457890 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Páis:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                USA </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">CEP:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                457890 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Páis:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                USA </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">CEP:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                457890 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Páis:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                USA </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">CEP:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                457890 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Páis:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                USA </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">CEP:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                457890 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Páis:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                USA </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">CEP:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                457890 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Páis:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                USA </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">CEP:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                457890 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Páis:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                USA </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">CEP:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                457890 </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="control-label col-md-3">Páis:</label>
+                                                                                        <div class="col-md-9">
+                                                                                            <p
+                                                                                                class="form-control-static">
+                                                                                                USA </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--/span-->
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="form-actions">
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="row">
+                                                                                        <div
+                                                                                            class="col-md-offset-3 col-md-9">
+                                                                                            <button type="submit"
+                                                                                                class="btn btn-primary">
+                                                                                                <i
+                                                                                                    class="fa fa-pencil"></i>
+                                                                                                Editar</button>
+                                                                                            <button type="button"
+                                                                                                class="btn default">Cancelar</button>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6"> </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                    <!-- END FORM-->
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                    </form>
+                    <!-- END FORM-->
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="form-actions">
+        <div class="row" style="text-align: center;">
+            <div class="col-md-offset-3 col-md-9" style="width: 100%; margin: auto;">
+                <a class="btn default button-previous " id="voltar" style="display: none;">
+                    <i class="fa fa-angle-left"></i> VOLTAR </a>
+                <a class="btn btn-outline green button-next" onclick="" id="prosseguir"> PROSSEGUIR
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                <a style="display: none" onclick="alert('AO CLICAR EM CONCLUIR EXIBIR DAEMS E PDF PARA IMPRESSÃO')"
+                    class="btn green " id="concluido" class="concluido">
+                    CONCLUIR
+                    <i class="fa fa-check"></i>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    </form>
+    </div>
+    </div>
+    <!-- END CONTENT BODY -->
+    </div>
+    <!-- END CONTENT -->
+
+    <!-- QUICK SIDEBAR -->
+
+    </div>
+    </div>
+
+    <div class="modal fade" id="tutorialFormulario" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel" style="text-align: center;"><b>
+                            Tutorial do formulário
+                            <br>
+                            <h3>
+                                (este tutorial é dinâmico e
+                                sempre serão implementadas novas orientações)
+                            </h3>
+                        </b> </h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h3>
+                        1 - Para utilizar este template serão necessários os plugins mencionados na página principal.
+                        Estes plugins serão atualizados conforme necessidade e será informada neste tutorial a
+                        atualização do mesmo.
+                        <br>
+                        <br>
+                        2 - Após configurar os plugins corretamente no código de desenvolvimento, você pode inserir todo
+                        o conteúdo na tag 'body' do seu código e já poderá visualizar o template no seu navegador.
+                        <br>
+                        <br>
+                        3 - Caso queira inserir uma nova ETAPA, você deve replicar um elemento 'li' dentro da 'ul' na
+                        linha 156, assim como os existentes na lista e dar a ele seu respecitvo ID.
+                        <br>
+                        <br>
+                        4 - Caso queira inserir elementos de formulário dentro da nova ETAPA, você deve inserir na div
+                        de classe 'tab-content', na linha 193, uma div com a classe 'tab-pane' e o mesmo ID que deu na
+                        'li' criada.
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        Em caso de dúvidas envie um email para: vrojas@fazenda.ms.gov.br
+                    </h3>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 assinatura">
+                    <img src="../../img/logo/ucqi-mini.png" alt="UCQI">
+                    <img src="../../img/logo/cotin-mini2-removebg-preview.png" alt="logo" class="logo-default"
+                        style="width: 300px; margin-left: 10px; margin-bottom: 20px; " />
+                </div>
+                <div class="col-md-4 text-center">
+                    <p class="copyright">© 2020 COTIN - Todos direitos reservados</p>
+                </div>
+                <div class="col-md-4 text-right">
+                    <img class="footer-logo" src="../../img/logo/sefaz.png" alt="Sefaz">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BEGIN QUICK NAV -->
+
+
+    <div class="quick-nav-overlay"></div>
+
+    <!--[if lt IE 9]>
+        <script src="../../../plugins/respond/respond.min.js"></script>
+        <script src="../../../plugins/excanvas.min.js"></script> 
+    <![endif]-->
+
+    <!-- CORE PLUGINS -->
+    <script src="../../plugins/jquery/jquery.min.js" type="text/javascript"></script>
+    <script src="../../plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript">
+    </script>
+    <script src="../../plugins/js.cookie.min.js" type="text/javascript"></script>
+    <script src="../../plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="../../plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="../../plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+    <script src="../../plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+    <script src="../../template-vertical/html/js/draggableModal.js"></script>
+
+    <!-- GLOBAL SCRIPTS -->
+    <script src="../../app/app.js" type="text/javascript"></script>
+
+    <!-- WIZARD FORM SCRIPTS -->
+    <script src="../../plugins/jquery-validation/jquery.validate.min.js" type="text/javascript"></script>
+
+    <script src="../../plugins/select2/js/select2.full.min.js" type="text/javascript"></script>
+    <script src="../../plugins/jquery-validation/additional-methods.min.js" type="text/javascript"></script>
+    <script src="../../plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js" type="text/javascript"></script>
+    <script src="../../pages/js/form-wizard.min.js" type="text/javascript"></script>
+
+    <!-- LAYOUT SCRIPTS -->
+    <script src="../../app/layout-vertical.js" type="text/javascript"></script>
+    <script src="../../app/quick-sidebar.js" type="text/javascript"></script>
+    <script src="../../app/quick-nav.js" type="text/javascript"></script>
+    <script src="../../template-vertical/html/js/inputObserver.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('[data-hint="tooltip"]').tooltip();
+        });
+    </script>
+
+</body>
+
+</html>
