@@ -1290,6 +1290,8 @@ Separated List
 /***
 Number & Chart Stats
 ***/
+
+
 .number-stats {
   margin: 10px 0; }
   .number-stats .stat-number {
@@ -20450,3 +20452,14 @@ Color library demo
     border-top: 1px solid #eee;
     padding: 10px 10px;
     text-align: center; }
+
+  .nav-pills{
+    display: flex;
+    overflow: auto;
+  }
+
+  .nav-pills>li>a>span{
+    height: 35px;
+    width: 35px;
+    line-height: 14px
+  }
