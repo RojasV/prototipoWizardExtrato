@@ -33,7 +33,7 @@
 
 <body class="page-container-bg-solid page-header-fixed page-sidebar-closed-hide-logo">
     <!-- BEGIN HEADER -->
-    <div class="page-header navbar navbar-fixed-top">
+    <div class="page-header navbar">
         <div class="page-header-inner ">
 
             <div class="page-logo">
@@ -198,6 +198,54 @@
                                         <button class="close" data-dismiss="alert"></button> Your form validation is
                                         successful!
                                     </div>
+                                    <div class="form-actions fixedMenu">
+                                        <div class="row" style="text-align: center;">
+                                            <div class="col-md-offset-3 col-md-9"
+                                                style="width: 100%; margin: auto; display: flex; justify-content: center; gap: 3rem;">
+                                                <a class="btn default button-previous " id="voltar" style="display: none;">
+                                                    <i class="fa fa-angle-left"></i> VOLTAR </a>
+                                
+                                                </a>
+                                
+                                
+                                
+                                                <div class="">
+                                                    <select class="form-control">
+                                                        <option>Atribuir Pedido</option>
+                                                        <option>Opção 2</option>
+                                                        <option>Opção 3</option>
+                                                        <option>Opção 4</option>
+                                                        <option>Opção 5</option>
+                                                    </select>
+                                                </div>
+                                
+                                
+                                                <a class="btn btn-default " onclick="" id="prosseguir"> Devolver à fila
+                                
+                                                </a>
+                                                <a class="btn btn-default " onclick="" id="prosseguir"> Indeferir
+                                
+                                                </a>
+                                                <a class="btn btn-default " onclick="" id="prosseguir"> Adicionar Documentos
+                                
+                                                </a>
+                                                <a class="btn btn-default " onclick="" id="prosseguir"> Pendente de saneamento
+                                
+                                                </a>
+                                                <a class="btn btn-default " onclick="" id="prosseguir"> Imprimir pedido
+                                
+                                                </a>
+                                                <a class="btn btn-outline green button-next" onclick="" id="prosseguir"> PROSSEGUIR
+                                                    <i class="fa fa-angle-right"></i>
+                                
+                                                </a>
+                                                <a style="display: none" onclick="alert('AO CLICAR EM CONCLUIR EXIBIR DAEMS E PDF PARA IMPRESSÃO')"
+                                                    class="btn green " id="concluido" class="concluido">
+                                                    CONCLUIR
+                                                    <i class="fa fa-check"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="tab-pane active " id="tab1" style="text-align: center;">
                                         <div class="portlet-body">
                                             <div class="row">
@@ -238,12 +286,13 @@
                                                             style="display: flex; flex-direction: row; justify-content: space-evenly;">
 
                                                             <div class="form-body col-md-5 portlet box green"
-                                                                style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; background-color: #FFFFFF;"
+                                                                style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; background-color: #FFFFFF; "
                                                                 ;>
                                                                 <div class="col-md-12 portlet-title"
-                                                                    style="display: flex; justify-content:center;">
+                                                                    style="display: flex; justify-content:center; background-color: #eef1f5;">
 
-                                                                    <div class="caption" style="margin: auto;">
+                                                                    <div class="caption"
+                                                                        style="margin: auto; color: #333333;">
                                                                         IDENTIFICAÇÃO - DADOS ATUAIS DO CCE</div>
 
                                                                 </div>
@@ -490,9 +539,10 @@
                                                                 style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; background-color: #FFFFFF;"
                                                                 ;>
                                                                 <div class="col-md-12 portlet-title"
-                                                                    style="display: flex; justify-content:center;">
+                                                                    style="display: flex; justify-content:center; background-color: #eef1f5;;">
 
-                                                                    <div class="caption" style="margin: auto;">
+                                                                    <div class="caption"
+                                                                        style="margin: auto; color: #333333;">
                                                                         IDENTIFICAÇÃO - DADOS ALTERADOS</div>
 
                                                                 </div>
@@ -2332,54 +2382,7 @@
 
         </div>
     </div>
-    <div class="form-actions">
-        <div class="row" style="text-align: center;">
-            <div class="col-md-offset-3 col-md-9"
-                style="width: 100%; margin: auto; display: flex; justify-content: center; gap: 3rem;">
-                <a class="btn default button-previous " id="voltar" style="display: none;">
-                    <i class="fa fa-angle-left"></i> VOLTAR </a>
-
-                </a>
-
-
-
-                <div class="">
-                    <select class="form-control">
-                        <option>Atribuir Pedido</option>
-                        <option>Opção 2</option>
-                        <option>Opção 3</option>
-                        <option>Opção 4</option>
-                        <option>Opção 5</option>
-                    </select>
-                </div>
-
-
-                <a class="btn btn-default " onclick="" id="prosseguir"> Devolver à fila
-
-                </a>
-                <a class="btn btn-default " onclick="" id="prosseguir"> Indeferir
-
-                </a>
-                <a class="btn btn-default " onclick="" id="prosseguir"> Adicionar Documentos
-
-                </a>
-                <a class="btn btn-default " onclick="" id="prosseguir"> Pendente de saneamento
-
-                </a>
-                <a class="btn btn-default " onclick="" id="prosseguir"> Imprimir pedido
-
-                </a>
-                <a class="btn btn-outline green button-next" onclick="" id="prosseguir"> PROSSEGUIR
-                    <i class="fa fa-angle-right"></i>
-                    <a style="display: none" onclick="alert('AO CLICAR EM CONCLUIR EXIBIR DAEMS E PDF PARA IMPRESSÃO')"
-                        class="btn green " id="concluido" class="concluido">
-                        CONCLUIR
-                        <i class="fa fa-check"></i>
-                    </a>
-
-            </div>
-        </div>
-    </div>
+ 
     </div>
     </form>
     </div>
@@ -2508,6 +2511,16 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $('[data-hint="tooltip"]').tooltip();
+        });
+
+        let stickyMenu = $('.fixedMenu').offset().top;
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > stickyMenu) {
+                $('.fixedMenu').addClass('affix');
+            } else {
+                $('.fixedMenu').removeClass('affix');
+            }
         });
     </script>
 

@@ -8855,7 +8855,7 @@ Custom colored portlets
 
 .portlet.box.green {
   border: 1px solid #5cd1db;
-  border-top: 0; }
+   }
   .portlet.box.green > .portlet-title {
     background-color: #32c5d2; }
     .portlet.box.green > .portlet-title > .caption {
