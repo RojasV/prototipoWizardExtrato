@@ -11839,7 +11839,7 @@ Custom colored portlets
 
 .fixedMenu.affix {
   position: fixed;
-  top: 0 !important;
+ bottom: 0;
   z-index: 9999;
   left: 18.7%;
   background-color: #eef1f5 !important;
