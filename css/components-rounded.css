@@ -11841,10 +11841,11 @@ Custom colored portlets
   position: fixed;
  bottom: 0;
   z-index: 9999;
-  left: 18.7%;
+  left: 0;
   background-color: #eef1f5 !important;
   padding: 2rem !important;
   border-radius: 4px;
+  width: 100%;
  
 }
 
