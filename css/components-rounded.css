@@ -12,7 +12,7 @@ body {
   padding: 0px !important;
   margin: 0px !important;
   direction: "ltr";
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /*
@@ -1283,7 +1283,7 @@ p {
 }
 
 label {
-  font-weight: normal;
+  font-weight: 600;
 }
 
 /* Headings */
@@ -8048,6 +8048,8 @@ Form Layouts
 .help-block {
   margin-top: 5px;
   margin-bottom: 5px;
+  position: absolute;
+  font-size: 12px;
 }
 
 .help-inline {
@@ -10280,9 +10282,10 @@ Portlets
 .portlet>.portlet-title>.caption {
   float: left;
   display: inline-block;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 18px;
   padding: 10px 0;
+  font-weight: bold;
 }
 
 .portlet>.portlet-title>.caption.bold {
@@ -10291,10 +10294,9 @@ Portlets
 
 .portlet>.portlet-title>.caption>i {
   float: left;
-  margin-top: 4px;
-  display: inline-block;
+   display: inline-block;
   font-size: 13px;
-  margin-right: 5px;
+ margin: 4px 16px 0px 24px;
   color: #666;
 }
 
@@ -10550,7 +10552,7 @@ Portlets
 
 .portlet.box>.portlet-title {
   border-bottom: 0;
-  padding: 0 10px;
+  padding: 16px 16px;
   margin-bottom: 0;
   color: #fff;
 }
@@ -10588,8 +10590,8 @@ Portlets
 }
 
 .portlet.box>.portlet-body {
-  background-color: #fff;
-  padding: 15px;
+  background-color:#F5F5F5;
+  padding: 24px;
 }
 
 /* Light Portlet */
@@ -10720,7 +10722,7 @@ Portlets
 }
 
 .portlet.light .portlet-body {
-  padding-top: 8px;
+ 
 }
 
 .portlet.light.portlet-fullscreen>.portlet-body {
@@ -11081,20 +11083,21 @@ Custom colored portlets
 }
 
 .portlet.box.blue {
-  border: 1px solid #60aee4;
+  border: 1px solid #e5e5e5;
   border-top: 0;
 }
 
 .portlet.box.blue>.portlet-title {
-  background-color: #3598dc;
+  background-color: #D2E6A0;
 }
 
 .portlet.box.blue>.portlet-title>.caption {
-  color: #FFFFFF;
+  color: #024135;
 }
 
 .portlet.box.blue>.portlet-title>.caption>i {
-  color: #FFFFFF;
+  color: #407204;
+  font-size: 24px;;
 }
 
 .portlet.box.blue>.portlet-title>.actions .btn-default {
@@ -11792,11 +11795,12 @@ Custom colored portlets
 }
 
 .portlet.box.green {
-  border: 1px solid #5cd1db;
+  border: 1px solid #e5e5e5;
 }
 
 .portlet.box.green>.portlet-title {
-  background-color: #32c5d2;
+  background-color: #D2E6A0;
+  max-height: 70px;
 }
 
 .portlet.box.green>.portlet-title>.caption {

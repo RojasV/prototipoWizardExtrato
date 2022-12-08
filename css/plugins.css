@@ -494,7 +494,9 @@ Bootstrap Wizard
     .form-wizard .steps > li > a.step > .desc {
       display: inline-block;
       font-size: 16px;
-      font-weight: 300; }
+      font-weight: 300;
+      margin-top: 16px;
+    }
       .form-wizard .steps > li > a.step > .desc > i {
         display: none; }
   .form-wizard .steps > li.active > a.step .number {

@@ -7718,7 +7718,9 @@ Portlets
       display: inline-block;
       font-size: 18px;
       line-height: 18px;
-      padding: 10px 0; }
+      font-weight: bold !important;
+      padding: 10px 0;
+      color: #024135; }
       .portlet > .portlet-title > .caption.bold {
         font-weight: 400; }
       .portlet > .portlet-title > .caption > i {

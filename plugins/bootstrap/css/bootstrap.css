@@ -2405,7 +2405,9 @@ input[type="search"] {
     line-height: 46px; } }
 
 .form-group {
-  margin-bottom: 15px; }
+  margin-bottom: 32px;
+  position: relative;
+}
 
 .radio,
 .checkbox {
@@ -2844,7 +2846,7 @@ fieldset[disabled] a.btn {
   pointer-events: none; }
 
 .btn-default {
-  color: #333;
+  color: #407204;
   background-color: #fff;
   border-color: #ccc; }
   .btn-default:focus,
